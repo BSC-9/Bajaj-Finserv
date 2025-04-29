@@ -56,7 +56,7 @@ export default function DynamicForm({ rollNumber }) {
     if (validateSection()) {
       setCurrentSectionIndex((prev) => prev + 1);
     } else {
-      alert("Please fill all required fields correctly before moving forward.");
+      alert("Check and Fill");
     }
   };
 
@@ -66,11 +66,11 @@ export default function DynamicForm({ rollNumber }) {
 
   const handleSubmitForm = () => {
     if (validateSection()) {
-      console.log("✅ Full Form Data Submitted:");
+      console.log(" Data Submitted:");
       console.table(userInputs);
-      alert("Form Submitted Successfully!");
+      alert("Submitted Successfully!");
     } else {
-      alert("Please fill all required fields correctly.");
+      alert("fill all fields");
     }
   };
 
