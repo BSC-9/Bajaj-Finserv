@@ -21,7 +21,7 @@ export default function DynamicForm({ rollNumber }) {
         console.error("Failed to fetch form");
       }
     } catch (error) {
-      console.error("Fetch form error:", error);
+      console.error("error:", error);
     }
   };
 
