@@ -75,7 +75,7 @@ export default function DynamicForm({ rollNumber }) {
   };
 
   if (!formData) {
-    return <p>Loading form...</p>;
+    return <p>oops! Delayed like SRM students </p>;
   }
 
   return (
